@@ -1,5 +1,5 @@
 import Axios from 'axios';
-import getUrl from '../../app.utils';
+import getUrl from '../app.utils';
 
 export class CircuitRepository {
   circuitId: number | null = null;
