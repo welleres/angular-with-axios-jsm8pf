@@ -1,7 +1,7 @@
 import Axios from 'axios';
 import getUrl from '../../app.utils';
 
-export class TabsRepository {
+export class CircuitRepository {
   circuitId: number | null = null;
   circuitUrl: string | null = null;
 
@@ -10,21 +10,23 @@ export class TabsRepository {
     this.circuitUrl = getUrl(`/circuits/${this.circuitId}`);
   }
 
-  async dataOverview() {
+  async overview() {
     const queryQl = {};
     const overview = await Axios.get(this.circuitUrl);
     return overview;
   }
 
-  async dataItineraire() {
+  async itineraire() {
     return {};
   }
 
-  async dataParticipation() {
+  async participation() {
     return {};
   }
 
-  async dataPolitique() {
+  async politique() {
     return {};
   }
+
+  async galerie() {}
 }
