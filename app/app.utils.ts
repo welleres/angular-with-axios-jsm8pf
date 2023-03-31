@@ -10,3 +10,10 @@ export default function getUrl(path: string) {
 
   return urls.PROD + path;
 }
+
+export function getConnectedUser() {
+  return {
+    name: 'olivier',
+    firstname: 'Jean',
+  };
+}
