@@ -1,5 +1,9 @@
 export class BannerRepository {
-  async bannerlg() {}
+  async bannerlg() {
+    return {};
+  }
 
-  async bannersm() {}
+  async bannersm() {
+    return {};
+  }
 }
