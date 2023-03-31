@@ -28,5 +28,7 @@ export class CircuitRepository {
     return {};
   }
 
-  async tourInfo() {}
+  async tourInfo() {
+    return {};
+  }
 }
