@@ -1,7 +1,7 @@
-<h2>Angular with axios</h2>
+<h2>Teste with axios</h2>
 
 <ng-container *ngIf="user as user">
-	<h2>{{ user.name.first + ' ' + user.name.last | titlecase }}</h2>
-	<img src="{{user.picture.large}}">
+  <h2>{{ user.name.first + ' ' + user.name.last | titlecase }}</h2>
+  <img src="{{ user.picture.large }}" />
 </ng-container>
 <button (click)="changeUser()">Change User</button>

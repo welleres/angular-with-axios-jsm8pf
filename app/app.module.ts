@@ -8,6 +8,6 @@ import { UserRepository } from './repository/user';
   imports: [BrowserModule],
   declarations: [AppComponent],
   bootstrap: [AppComponent],
-  providers: [UserRepository]
+  providers: [UserRepository],
 })
-export class AppModule { }
+export class AppModule {}
